@@ -1,4 +1,4 @@
-:root body {
+:root {
   font-family: "Edu SA Beginner", cursive;
   background-color: rgb(224, 251, 240);
 }
@@ -22,7 +22,7 @@ img {
 }
 
 .heading-info {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   background-image: url("/media/soco-1.jpg");
   background-position: center;
