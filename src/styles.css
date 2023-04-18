@@ -11,7 +11,7 @@ body {
 header h1 {
   font-size: 80px;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 header h2 {
@@ -20,20 +20,20 @@ header h2 {
   line-height: 1.5;
 }
 
+header h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
 header a {
   color: white;
-  background-color: salmon;
+  background-color: rgb(236, 67, 121);
   border-radius: 8px;
   font-size: 15px;
   font-weight: 200;
   line-height: 1;
-  padding: 10px;
-}
-
-h1,
-h2,
-h3 {
-  margin: 20px;
+  padding: 11px 15px;
 }
 
 img {
