@@ -2,11 +2,11 @@
   font-family: "Edu SA Beginner", cursive;
   --background-color: rgb(237, 253, 167);
   --link-color: rgb(250, 71, 71);
+  --link-hover-color: rgb(148, 106, 247);
 }
 
 body {
   background-color: var(--background-color);
-  text-align: center;
 }
 
 container {
@@ -17,6 +17,7 @@ container {
 header {
   color: white;
   width: 100%;
+  text-align: center;
   padding: 150px 10px;
   background-image: linear-gradient(rgba(93, 182, 249, 0.1), rgba(0, 0, 0, 0.7)),
     url("/media/soco-1.jpg");
@@ -64,6 +65,10 @@ a {
   color: var(--link-color);
 }
 
+a:hover {
+  color: var(--link-hover-color);
+}
+
 img {
   max-width: 900px;
   display: flex;
@@ -74,14 +79,17 @@ img {
 
 footer {
   color: rgb(244, 239, 239);
+
   font-size: 15px;
-  background-image: linear-gradient(
-      rgba(132, 132, 132, 0.4),
-      rgba(0, 0, 0, 0.6)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url(../media/lady-bird-lake-trail.jpg);
   background-position: center;
   background-size: cover;
+  padding: 20px;
+}
+
+footer a {
+  opacity: 0.9;
 }
 
 li {
@@ -91,6 +99,11 @@ li {
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 @media (max-width: 800px) {
