@@ -71,20 +71,20 @@ a:hover {
 
 img {
   max-width: 900px;
-  display: flex;
-  width: 300px;
-  border-radius: 9px;
+  width: 100%;
+  border-radius: 7px;
+  opacity: 0.9;
 }
 
 main {
   background-color: white;
-  padding: 30px 80px;
+  padding: 70px 80px;
 }
 
 main p {
   font-weight: 400;
   font-size: 25px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 footer {
