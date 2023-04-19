@@ -79,7 +79,8 @@ img {
 
 footer {
   color: rgb(244, 239, 239);
-
+  margin-top: 29px;
+  width: 100%;
   font-size: 15px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url(../media/lady-bird-lake-trail.jpg);
@@ -92,8 +93,15 @@ footer a {
   opacity: 0.9;
 }
 
-li {
+footer li {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul {
+  padding: 0;
+  margin: 10px;
 }
 
 .container {
@@ -103,7 +111,7 @@ li {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 @media (max-width: 800px) {
