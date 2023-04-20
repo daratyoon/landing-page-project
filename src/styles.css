@@ -67,7 +67,6 @@ header a {
 }
 
 a {
-  font-size: var(--details-font);
   text-decoration: none;
   color: var(--link-color);
 }
@@ -149,8 +148,10 @@ footer ul {
 }
 
 .sources {
-  margin: 10px 20px 30px 111px;
-  grid-gap: 500px;
+  margin: 15px 20px 30px 195px;
+  font-family: var(--details-font);
+  line-height: 1;
+  font-size: 13px;
 }
 
 @media (max-width: 900px) {
