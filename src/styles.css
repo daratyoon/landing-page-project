@@ -144,13 +144,13 @@ footer ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-4-columns {
-  grid-template-columns: 1fr 2fr 1fr 1fr;
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 .sources {
-  display: inline-block;
-  margin: 0 0 0 280px;
+  margin: 10px 20px 30px 114px;
+  grid-gap: 500px;
 }
 
 @media (max-width: 800px) {
