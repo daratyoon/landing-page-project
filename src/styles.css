@@ -10,9 +10,6 @@ body {
   background-color: var(--background-color);
   font-family: var(--title-font);
 }
-p {
-  font-family: var(--details-font);
-}
 
 container {
   max-width: 1200px;
@@ -80,15 +77,18 @@ a:hover {
 }
 
 img {
-  max-width: 900px;
+  max-width: 100%;
   width: 500px;
   border-radius: 7px;
   filter: brightness(118%);
 }
 
-.main-body-img {
-  width: 100%;
-  opacity: 0.9;
+.intro-body-img {
+  opacity: 0.8;
+}
+
+p {
+  font-family: var(--details-font);
 }
 
 main {
@@ -149,11 +149,11 @@ footer ul {
 }
 
 .sources {
-  margin: 10px 20px 30px 114px;
+  margin: 10px 20px 30px 111px;
   grid-gap: 500px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   header {
     padding: 60px 0;
   }
@@ -165,5 +165,30 @@ footer ul {
   }
   header h3 {
     font-size: 20px;
+  }
+
+  main p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  footer {
+    background-image: none;
+    text-align: center;
+  }
+  footer h4 {
+    color: rgb(33, 114, 87);
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .about-me {
+    font-size: 15px;
+    color: rgb(137, 24, 79);
+  }
+  .sources {
+    font: 12px;
   }
 }
