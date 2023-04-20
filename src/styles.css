@@ -1,5 +1,6 @@
 :root {
-  font-family: "Edu SA Beginner", cursive;
+  --title-font: "Edu SA Beginner", cursive;
+  --details-font: "Cutive Mono", monospace;
   --background-color: rgb(237, 253, 167);
   --link-color: rgb(250, 71, 71);
   --link-hover-color: rgb(148, 106, 247);
@@ -7,9 +8,10 @@
 
 body {
   background-color: var(--background-color);
+  font-family: var(--title-font);
 }
 p {
-  font-family: "Cutive Mono", monospace;
+  font-family: var(--details-font);
 }
 
 container {
@@ -65,10 +67,10 @@ header a {
   font-weight: 200;
   line-height: 1;
   padding: 10px;
-  text-transform: uppercase;
 }
 
 a {
+  font-size: var(--details-font);
   text-decoration: none;
   color: var(--link-color);
 }
