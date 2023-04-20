@@ -83,10 +83,6 @@ img {
   filter: brightness(118%);
 }
 
-.intro-body-img {
-  opacity: 0.8;
-}
-
 p {
   font-family: var(--details-font);
 }
@@ -142,6 +138,10 @@ footer ul {
 
 .grid-2-columns {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.intro-body-img {
+  opacity: 0.8;
 }
 
 .grid-3-columns {
