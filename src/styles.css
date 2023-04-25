@@ -79,7 +79,7 @@ img {
   max-width: 100%;
   width: 500px;
   border-radius: 7px;
-  filter: brightness(118%);
+  filter: brightness(110%);
 }
 
 p {
@@ -87,6 +87,7 @@ p {
 }
 
 main {
+  max-width: 1200px;
   background-color: white;
   padding: 70px 80px;
 }
@@ -95,6 +96,11 @@ main p {
   font-weight: 400;
   font-size: 22px;
   line-height: 1.5;
+}
+
+section.secondary {
+  max-width: 1400px;
+  background-color: white;
 }
 
 footer {
@@ -151,7 +157,7 @@ footer ul {
   margin: 15px 20px 30px 195px;
   font-family: var(--details-font);
   line-height: 1;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
