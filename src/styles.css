@@ -99,13 +99,13 @@ main p {
 }
 
 section.secondary {
-  max-width: 1400px;
-  background-color: white;
+  max-width: 1300px;
+  background-color: rgb(255, 255, 255);
 }
 
 footer {
+  max-width: 1261px;
   color: rgb(244, 239, 239);
-  margin-top: 29px;
   width: 100%;
   font-size: 15px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
@@ -154,7 +154,7 @@ footer ul {
 }
 
 .sources {
-  margin: 15px 20px 30px 195px;
+  margin: 15px 20px 30px 144px;
   font-family: var(--details-font);
   line-height: 1;
   font-size: 14px;
