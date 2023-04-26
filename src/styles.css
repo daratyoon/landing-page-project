@@ -104,9 +104,8 @@ section.secondary {
 }
 
 footer {
-  max-width: 1261px;
+  max-width: 1300px;
   color: rgb(244, 239, 239);
-  width: 100%;
   font-size: 15px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url(../media/lady-bird-lake-trail.jpg);
