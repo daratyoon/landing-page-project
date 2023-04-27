@@ -3,7 +3,7 @@
   --details-font: "Cutive Mono", monospace;
   --background-color: rgb(237, 253, 167);
   --link-color: rgb(250, 71, 71);
-  --link-hover-color: rgb(148, 106, 247);
+  --link-hover-color: rgb(200, 177, 253);
 }
 
 body {
@@ -123,6 +123,10 @@ p.card-paragraph {
   text-align: justify-all;
 }
 
+iframe {
+  width: 100%;
+}
+
 footer {
   max-width: 1300px;
   color: rgb(244, 239, 239);
@@ -181,6 +185,20 @@ footer ul {
 .grid-3-columns-equal {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 4%;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: var(--link-color);
+  margin-top: 25px;
 }
 
 .sources {
