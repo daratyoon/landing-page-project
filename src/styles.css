@@ -152,6 +152,10 @@ footer ul {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns-equal {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .sources {
   margin: 15px 20px 30px 71px;
   font-family: var(--details-font);
