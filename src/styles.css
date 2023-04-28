@@ -176,7 +176,9 @@ footer ul {
 }
 
 .intro-body-img {
-  opacity: 0.8;
+  opacity: 0.9;
+  width: 500px;
+  max-width: 100%;
 }
 
 .grid-3-columns {
@@ -238,14 +240,14 @@ footer ul {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 6px;
+    margin: 0 auto;
   }
 
   .about-me {
-    font-size: 15px;
-    color: rgb(137, 24, 79);
+    display: none;
   }
   .sources {
-    font: 12px;
+    font: 2px;
   }
 }
