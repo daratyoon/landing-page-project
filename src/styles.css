@@ -125,6 +125,7 @@ p.card-paragraph {
 
 iframe {
   width: 100%;
+  border-radius: 3px;
 }
 
 footer {
