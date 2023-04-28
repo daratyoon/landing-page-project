@@ -182,7 +182,7 @@ footer ul {
 }
 
 .grid-3-columns {
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
 .grid-3-columns-equal {
@@ -202,6 +202,10 @@ footer ul {
   padding: 16px;
   background-color: var(--link-color);
   margin-top: 25px;
+}
+
+.about-me {
+  padding: 0 30px;
 }
 
 .sources {
