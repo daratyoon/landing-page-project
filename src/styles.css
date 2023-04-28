@@ -88,10 +88,9 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  width: 500px;
+  width: 100%;
   border-radius: 7px;
-  filter: brightness(110%);
+  filter: brightness(109%);
 }
 
 p {
@@ -141,6 +140,7 @@ footer {
 
 footer p {
   text-align: justify;
+  margin: 29px 0;
 }
 
 footer a {
