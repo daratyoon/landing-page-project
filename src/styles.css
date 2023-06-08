@@ -3,7 +3,7 @@
   --details-font: "Cutive Mono", monospace;
   --background-color: rgb(237, 253, 167);
   --link-color: rgb(250, 71, 71);
-  --link-hover-color: rgb(156, 156, 245);
+  --link-hover-color: rgb(147, 147, 222);
 }
 
 body {
@@ -74,7 +74,7 @@ header a {
   font-size: 15px;
   font-weight: 200;
   line-height: 1;
-  padding: 10px;
+  padding: 20px;
 }
 
 a {
@@ -206,7 +206,7 @@ footer ul {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 16px;
+  padding: 20px;
   background-color: var(--link-color);
   margin-top: 25px;
 }
