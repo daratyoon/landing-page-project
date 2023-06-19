@@ -113,7 +113,7 @@ section.secondary {
   border-top: 1px solid #ee3024;
   max-width: 1300px;
   background-color: rgb(255, 255, 255);
-  margin: 50px 0;
+  margin: 45px 0;
 }
 
 p.card-paragraph {
@@ -197,11 +197,15 @@ i:hover {
   max-width: 100%;
 }
 
-.body-title {
+.body-title,
+.video-title {
   color: #0081e6;
+  margin-top: 30px;
+}
+
+.body-title {
   font-weight: 900;
   font-size: 35px;
-  margin-top: 30px;
 }
 
 .grid-3-columns {
