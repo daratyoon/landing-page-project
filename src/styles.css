@@ -165,6 +165,14 @@ footer ul {
   margin: 10px;
 }
 
+i {
+  color: var(--link-color);
+  font-size: 23px;
+}
+i:hover {
+  color: var(--link-hover-color);
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
